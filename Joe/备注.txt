@@ -5,6 +5,7 @@ Joe主题首页大图的css文件
 1：首先将css文件上传到服务器的主题目录内；
 2：然后复制以下代码，找到joe主题的index.php文件；
 3：在index.php文件内找到<?php $this->need('public/header.php'); ?>这行代码，粘贴到这行代码下方即可； 
+4：图片地址：https://cdn.jsdelivr.net/gh/dyj996600567/daiyingjie/Joe/DaiYingJie-zhuti.jpg
 
 <div class="HeaderImg" style="background: url(这里填写你的图片地址) center;background-size:cover;">
                 <div class="infomation">
