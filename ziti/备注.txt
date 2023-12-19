@@ -1,1 +1,2 @@
 网站字体
+https://cdn.jsdelivr.net/gh/dyj996600567/daiyingjie/ziti/DaiYingJie.woff2
