@@ -1,1 +1,29 @@
+Joe主题首页大图的css文件
 
+如何使用：
+
+1：首先将css文件上传到服务器的主题目录内；
+2：然后复制以下代码，找到joe主题的index.php文件；
+3：在index.php文件内找到<?php $this->need('public/header.php'); ?>这行代码，粘贴到这行代码下方即可； 
+
+<div class="HeaderImg" style="background: url(这里填写你的图片地址) center;background-size:cover;">
+                <div class="infomation">
+                    <div class="title"><?php $this->options->title(); ?></div>
+                    <div class="desctitle">
+                        <span class="motto joe_motto"</span>
+                    </div>
+                </div>
+                <section class="HeaderImg_bottom">
+                    <svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                        <defs>
+                            <path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path>
+                        </defs>
+                        <g class="parallax">
+                            <use xlink:href="#gentle-wave" x="48" y="0"></use>
+                            <use xlink:href="#gentle-wave" x="48" y="3"></use>
+                            <use xlink:href="#gentle-wave" x="48" y="5"></use>
+                            <use xlink:href="#gentle-wave" x="48" y="7"></use>
+                        </g>
+                    </svg>
+                </section>
+            </div>
