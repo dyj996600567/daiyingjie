@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<?php $this->options->themeUrl('assets/css/joe.dynamic.min.css'); ?>">
     <link href="<?php _getAssets('assets/css/tomorrow.min.css'); ?>" rel="stylesheet">
     <script src="<?php _getAssets('assets/js/clipboard.min.js'); ?>"></script>
-    <script src="<?php _getAssets('assets/prism.min.js'); ?>"></script>
+    <script src="<?php _getAssets('assets/js/prism.min.js'); ?>"></script>
     <script src="<?php $this->options->themeUrl('assets/js/joe.post_page.min.js'); ?>"></script>
 </head>
 
